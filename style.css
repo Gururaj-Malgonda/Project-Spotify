@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: #000000da;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 130px;
+}
+.sidebar{
+    width: 320px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+.home-1{
+    width: 95%;
+    background-color: rgba(45, 38, 38, 0.862);
+    border-radius: 5px; 
+}
+.home{
+    width: 95%;
+    border-radius: 5px; 
+}
+.home>img{
+ 
+}
+.img-x{
+    width: 40px;
+    height: 40px;
+}
+.playlist>img{
+    background-color: white;
+}
+.liked-songs>img{
+    background:linear-gradient(315deg,white,blue) ;
+}
+.podcast>img{
+    background-color: #004638;
+}
+
+
+
+.main-bar{
+    width:100%;
+}
+.box{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    background-color: #181616dc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box>img{
+    width: 80px;
+}
+.box-m{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: 250px;  
+    background-color: #181616dc;
+    border-radius: 20px;
+    
+}
+.card>img{
+    margin: 20px;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 12%; */
+    background-color: #000000;
+    box-shadow: 10px 10px 10px 10px rgba(255,255,255);
+}
+.foot-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen  and (max-width:480px){
+    .sidebar{
+        display: none !important;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot{
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .foot-right{
+        display: none !important;
+    }
+    .foot-left{
+        width: auto;
+    }
+    .foot-center{
+        width: auto;
+    }
+}
