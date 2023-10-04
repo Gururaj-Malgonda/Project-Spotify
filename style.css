@@ -41,9 +41,6 @@ main{
 .podcast>img{
     background-color: #004638;
 }
-
-
-
 .main-bar{
     width:100%;
 }
@@ -74,14 +71,11 @@ main{
 .card>img{
     margin: 20px;
 }
-
-
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    /* height: 12%; */
     background-color: #000000;
     box-shadow: 10px 10px 10px 10px rgba(255,255,255);
 }
@@ -90,6 +84,8 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+
 
 
 
@@ -116,4 +112,33 @@ footer{
     .foot-center{
         width: auto;
     }
+}
+
+
+
+.play-box{
+    height: 500px;
+    /* width: 83%; */
+    background: linear-gradient(180deg, #90AEA7, #000000);
+}
+.box-1{
+    padding-top: 100px;
+}
+.box-1>div{
+    padding-top: 70px;
+}
+.song-1{
+    height: 70px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.song-1-img{
+    width: 60px;
+}
+table{
+    width: 100vw;
+}
+tr{
+    height: 80px;
 }
