@@ -90,6 +90,9 @@ footer{
 
 
 @media screen  and (max-width:480px){
+    main{
+        margin-bottom: 105px;
+    }
     .sidebar{
         display: none !important;
         display: flex;
@@ -97,10 +100,23 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .foot{
+    .card-box{
         display: flex;
-        justify-content:center;
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 140px;
+        height: 200px;
+    }
+    /* .card>p{
+        font-size: 1x;
+    } */
+    .foot{
+        padding-right: 5px;
+        display: flex;
         flex-direction: row;
+        justify-content:center;
+        align-items: center;
         align-items: center;
     }
     .foot-right{
@@ -108,17 +124,26 @@ footer{
     }
     .foot-left{
         width: auto;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
     }
     .foot-center{
         width: auto;
+    }
+    .time{
+        display: none;
+    }
+    .img-2{
+        display: none;
     }
 }
 
 
 
-.play-box{
+/* .play-box{
     height: 500px;
-    /* width: 83%; */
+    width: 83%;
     background: linear-gradient(180deg, #90AEA7, #000000);
 }
 .box-1{
@@ -141,4 +166,4 @@ table{
 }
 tr{
     height: 80px;
-}
+} */
